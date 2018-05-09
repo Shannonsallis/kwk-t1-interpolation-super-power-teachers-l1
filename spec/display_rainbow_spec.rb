@@ -1,3 +1,4 @@
+def display_rainbow(color_list)
 describe '#display_rainbow' do
   it 'accepts one argument' do
     colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
