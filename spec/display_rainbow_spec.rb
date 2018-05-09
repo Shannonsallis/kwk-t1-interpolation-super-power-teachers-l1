@@ -1,6 +1,11 @@
 def display_rainbow(color_list)
+  puts "R: #{color_list[0]}, O: #{color_list[1]}, Y: #{color_list[2]}, G: #{color_list[3]}, B: #{color_list[4]}, I: #{color_list[5]}, V: #{color_list[6]}"
+end
     colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
 
+    describe '#display_rainbow' do
+    it 'accepts one argument' do
+      
   def display_rainbow(aura)
     puts "R: #{aura[0]}, O: #{aura[1]}, Y: #{aura[2]}, G: #{aura[3]}, B: #{aura[4]}, I: #{aura[5]}, V: #{aura[6]}"
   end
